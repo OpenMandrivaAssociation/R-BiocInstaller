@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2.1
-Release:          1
+Release:          2
 Summary:          Install/Update Bioconductor and CRAN Packages
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
