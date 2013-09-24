@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2.1
-Release:          2
+Version:          1.10.3
+Release:          1
 Summary:          Install/Update Bioconductor and CRAN Packages
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/BiocInstaller_1.10.3.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-RUnit 
@@ -43,3 +43,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/scripts
 %{rlibdir}/%{packname}/unitTests
+
